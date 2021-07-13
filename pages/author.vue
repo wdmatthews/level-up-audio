@@ -8,7 +8,7 @@
       <v-col
         cols="12"
         md="6"
-        lg="4"
+        xl="4"
       >
         <template v-if="author">
           <h1

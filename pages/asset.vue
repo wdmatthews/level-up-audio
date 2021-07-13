@@ -8,17 +8,19 @@
       <v-col
         cols="12"
         md="6"
-        lg="4"
+        xl="4"
       >
         <template v-if="asset">
           <h1
             class="text-h5 text-center"
             v-text="asset.name"
           />
-          <h2
-            class="text-h6 mb-4 text-center"
-            v-text="`Provided by ${author.name}`"
-          />
+          <h2 class="text-h6 mb-4 text-center">
+            Provided by <a
+              target="_blank"
+              :href="asset.website"
+            >{{ author.name }}</a>
+          </h2>
           <div class="mx-n2 mt-n2 mb-2 text-center">
             <v-chip
               v-for="(tag, i) in asset.tags"
@@ -36,7 +38,11 @@
             :key="`path-${i}`"
             class="mt-2"
           >
-            <AudioPlayer :path="path" />
+            <AudioPlayer
+              :author-id="authorId"
+              :asset-id="id"
+              :path="path"
+            />
           </div>
         </template>
         <p

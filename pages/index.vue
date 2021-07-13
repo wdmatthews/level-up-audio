@@ -9,7 +9,7 @@
     <v-col
       cols="12"
       md="6"
-      lg="4"
+      xl="4"
     >
       <h1 class="text-h5 text-center unselectable">
         <span class="primary--text">Level</span>
