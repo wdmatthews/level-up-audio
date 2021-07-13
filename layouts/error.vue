@@ -11,7 +11,7 @@ export default {
     },
   },
   head: vm => ({
-    title: `Error ${this.error.statusCode}`,
+    title: `Error ${vm.error.statusCode}`,
   }),
 }
 </script>
