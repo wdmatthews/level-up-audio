@@ -3,18 +3,17 @@
     app
     class="unselectable"
   >
-    <v-toolbar-title>
-      <nuxt-link
-        v-show="isMobile"
-        to="/"
-        style="height: 32px"
-        :class="{ 'd-block': isMobile, 'my-auto': true, 'ml-4': true }"
+    <nuxt-link
+      to="/"
+      style="height: 32px"
+      class="ml-4"
+    >
+      <img
+        src="/logo-transparent-64.png"
+        height="32"
       >
-        <img
-          src="/logo-transparent-64.png"
-          height="32"
-        >
-      </nuxt-link>
+    </nuxt-link>
+    <v-toolbar-title>
       <nuxt-link
         v-show="!isMobile"
         to="/"
