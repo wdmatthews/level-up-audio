@@ -38,8 +38,8 @@
       >
         <v-badge
           color="primary"
-          :content="3"
-          :value="3"
+          :content="savedAudioCount"
+          :value="savedAudioCount"
           inline
         >
           Saved
@@ -53,6 +53,7 @@
 export default {
   computed: {
     isMobile: vm => vm.$vuetify.breakpoint.xs || vm.$vuetify.breakpoint.sm,
+    savedAudioCount: vm => vm.$store.state.savedAudio.length,
   },
 }
 </script>
