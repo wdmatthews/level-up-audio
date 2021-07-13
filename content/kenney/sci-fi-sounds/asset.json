@@ -1,0 +1,28 @@
+{
+  "name": "Sci-Fi Sounds",
+  "description": "This package includes sci-fi related sounds including engines, explosions, lasers and more.",
+  "tags": [
+    "sci-fi",
+    "space",
+    "sfx"
+  ],
+  "files": [
+    "computerNoise_000.ogg",
+    "doorClose_000.ogg",
+    "doorOpen_000.ogg",
+    "engineCircular_000.ogg",
+    "explosionCrunch_000.ogg",
+    "forceField_000.ogg",
+    "impactMetal_000.ogg",
+    "laserLarge_000.ogg",
+    "laserRetro_000.ogg",
+    "laserSmall_000.ogg",
+    "lowFrequency_explosion_000.ogg",
+    "slime_000.ogg",
+    "spaceEngine_000.ogg",
+    "spaceEngineLarge_000.ogg",
+    "spaceEngineLow_000.ogg",
+    "spaceEngineSmall_000.ogg",
+    "thrusterFire_000.ogg"
+  ]
+}

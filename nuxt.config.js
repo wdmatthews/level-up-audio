@@ -33,7 +33,9 @@ export default {
   modules: [
     '@nuxt/content',
   ],
-  content: {},
+  content: {
+    fullTextSearchFields: ['name', 'description'],
+  },
   vuetify: {
     customVariables: ['~/assets/variables.scss'],
     treeShake: true,

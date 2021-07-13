@@ -21,7 +21,7 @@
       </h2>
       <v-text-field
         v-model="query"
-        placeholder="Search by name, author, tag, or format"
+        placeholder="Search by name, author, or tag"
         outlined
         hide-details
         class="mb-4"
@@ -50,8 +50,8 @@ export default {
   }),
   methods: {
     search() {
-      if (!this.query) { return }
-      console.log(this.query)
+      if (!this.query.trim()) { return }
+      this.$router.push({ path: 'search', query: { query: this.query } })
     },
   },
 }
