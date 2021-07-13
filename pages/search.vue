@@ -79,13 +79,13 @@ export default {
       }
       
       this.results = [
-        ...await this.$content('/', { deep: true })
+        ...await this.$content('', { deep: true })
           .search('name', query)
           .fetch(),
-        ...await this.$content('/', { deep: true })
+        ...await this.$content('', { deep: true })
           .search('description', query)
           .fetch(),
-        ...await this.$content('/', { deep: true })
+        ...await this.$content('', { deep: true })
           .where({
             tags: { $containsAny: queryWords },
           })

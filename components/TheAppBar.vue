@@ -9,7 +9,7 @@
       class="ml-4"
     >
       <img
-        src="/logo-transparent-64.png"
+        src="logo-transparent.png"
         height="32"
       >
     </nuxt-link>
