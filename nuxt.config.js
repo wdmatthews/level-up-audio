@@ -24,7 +24,9 @@ export default {
   css: [
     '~/assets/css/utilities.css',
   ],
-  plugins: [],
+  plugins: [
+    '~/plugins/load-saved-audio.client.js',
+  ],
   components: true,
   buildModules: [
     '@nuxtjs/eslint-module',

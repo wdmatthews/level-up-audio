@@ -94,6 +94,7 @@ export default {
     },
     toggleSave() {
       this.$store.commit(this.isSaved ? 'unsaveAudio' : 'saveAudio', this.audioSave)
+      localStorage.setItem('savedAudio', JSON.stringify(this.$store.state.savedAudio))
     },
   },
 }
