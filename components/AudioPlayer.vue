@@ -25,7 +25,7 @@
         icon
         class="mr-2"
         target="_blank"
-        :href="`/asset?author=${authorId}&id=${assetId}`"
+        :href="`asset?author=${authorId}&id=${assetId}`"
       >
         <v-icon v-text="'mdi-eye'" />
       </v-btn>

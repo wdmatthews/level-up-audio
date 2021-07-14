@@ -1,0 +1,1 @@
+window.__NUXT__=(function(a){return {staticAssetsBase:"\u002Flevel-up-audio\u002F_nuxt\u002Fstatic\u002F1626227369",layout:"default",error:a,state:{savedAudio:[]},serverRendered:true,routePath:"\u002F",config:{_app:{basePath:"\u002Flevel-up-audio\u002F",assetsPath:"\u002Flevel-up-audio\u002F_nuxt\u002F",cdnURL:a},content:{dbHash:"7bd835de"}}}}(null));
